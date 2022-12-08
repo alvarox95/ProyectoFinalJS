@@ -58,7 +58,7 @@ const fetchPokemon = () => {
             return false;
         }
     });
-    const button = document.querySelector("#buscar_pokemon");
+    const button = document.querySelector("#search_pokemon");
     button.addEventListener("click", () => {
     const pokemon = buscador.value.toLowerCase();
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)

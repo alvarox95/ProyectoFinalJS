@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Entrega Final</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container justify-content-center">
+            <a class="navbar-brand" href="#">
+            <img src="img/pokemonlogo.png" alt="" height="100">
+            </a>
+        </div>
+    </nav>
+    <div class="row height-100">
+        <div class="col-lg-6 bg-secondary bg-gradient d-flex justify-content-center align-items-center">
+            <img alt="" id="pokemon_img" class="img-fluid ">
+        </div>
+        <div class="informacion_pokemon col-lg-6 d-flex">
+            <div class="row justify-center">
+                <form class="row justify-content-end">
+                    <div class="col-12">
+                        <div class="input-group">
+                        <div class="input-group-text">Search Pokemon</div>
+                        <input type="text" class="form-control" id="input_pokemon" placeholder="Nombre del Pokemon">
+                        <button type="button" class="btn btn-secondary" id="buscar_pokemon">Search</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card d-flex align-items-center " id="pokemonGenerated">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row text-center">
+        <div class="card">
+        <div class="card-body">
+            Copyright © 2022 - Diseño Web realizado por <a href="https://walink.co/21ac22" target="_blank">Alvaro Medici</a>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/index.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
